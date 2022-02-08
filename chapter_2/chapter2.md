@@ -16,8 +16,7 @@
 **Preimage resistance:**
  - preimage is the set of inputs for a hash function that produce a specific output
 ```
-  Preimage: A preimage for a hash function H and a hash value k is the set of values of 
-x for which H(x) = k.
+  Preimage: A preimage for a hash function H and a hash value k is the set of values of x for which H(x) = k.
 ```
  - **The idea of preimage resistance is basically this:** if you hand me a digest and I don’t 
 already know how you got it, I can’t even find one element in the preimage for it without 
